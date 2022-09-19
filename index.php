@@ -14,7 +14,7 @@ $proc->setPage();
         echo university::$HTML["METAS"]."\n";
         echo university::$HTML["LINKS"]."\n";
         echo university::$HTML["NO_INDEX_METAS"]."\n";
-        echo university::$HTML["BODYSCRIPTSBLOCK"]."\n";
+        echo university::$HTML["HEADSCRIPTSBLOCK"]."\n";
     ?>
     <title><?php echo university::$HTML["TITLE"]."\n";?></title>
 </head>
@@ -28,5 +28,6 @@ $proc->setPage();
     <footer>
         <?php echo university::$HTML["FOOTERBLOCK"]."\n"; ?>
     </footer>
+    <?php echo university::$HTML["BODYSCRIPTSBLOCK"]."\n"; ?>
 </body>
 </html>
