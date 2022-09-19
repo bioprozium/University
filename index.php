@@ -14,11 +14,11 @@ $proc->setPage();
         echo university::$HTML["METAS"]."\n";
         echo university::$HTML["LINKS"]."\n";
         echo university::$HTML["NO_INDEX_METAS"]."\n";
-        echo university::$HTML["TITLE"]."\n";
         echo university::$HTML["BODYSCRIPTSBLOCK"]."\n";
     ?>
+    <title><?php echo university::$HTML["TITLE"]."\n";?></title>
 </head>
 <body>
-    
+    <h1>Welcome</h1>
 </body>
 </html>
