@@ -16,7 +16,7 @@ $proc->setPage();
         echo university::$HTML["NO_INDEX_METAS"]."\n";
         echo university::$HTML["HEADSCRIPTSBLOCK"]."\n";
     ?>
-    <title><?php echo university::$HTML["TITLE"]."\n";?></title>
+    <title><?php echo university::$HTML["TITLE"];?></title>
 </head>
 <body>
     <header>
