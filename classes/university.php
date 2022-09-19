@@ -12,6 +12,10 @@ class university
         "FOOTERBLOCK"=>"",
         "BODYSCRIPTSBLOCK"=>""
     );
+    public $modules = array(
+        "s"
+    );
+    public $module;
     public function __construct()
     {
         self::$HTML["TITLE"] .= "University: Managment System v1.0";
@@ -22,7 +26,7 @@ class university
     }
     public function setPage()
     {
-        self::$HTML["MAINBLOCK"] .= "";
+        
     }
     private function getModule()
     {
