@@ -19,6 +19,14 @@ $proc->setPage();
     <title><?php echo university::$HTML["TITLE"]."\n";?></title>
 </head>
 <body>
-    <h1>Welcome</h1>
+    <header>
+        <?php echo university::$HTML["NAVIGATIONBLOCK"]."\n"; ?>
+    </header>
+    <main>
+        <?php echo university::$HTML["MAINBLOCK"]."\n"; ?>
+    </main>
+    <footer>
+        <?php echo university::$HTML["FOOTERBLOCK"]."\n"; ?>
+    </footer>
 </body>
 </html>
